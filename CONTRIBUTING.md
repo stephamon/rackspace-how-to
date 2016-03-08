@@ -23,8 +23,8 @@ To avoid any merge conflicts or difficulties when making a pull request, always 
 Follow these steps to create a new article within a product folder of the **rackerlabs/rackspace-how-to** repo.
 
 1.	Go to your fork of the [Rackspace How-to content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to create an article.
-
-           **Note**: If you haven't already forked the How-to repository, do so by clicking the **Fork** button and selecting your personal GitHub account before proceeding.
+  
+   **Note**: If you haven't already forked the How-to repository, do so by clicking the **Fork** button and selecting your personal GitHub account before proceeding.
 
 2.	Click **New file**.
 
@@ -56,6 +56,8 @@ Follow these steps to create a new article within a product folder of the **rack
 7.	In the **Commit new file** box at the bottom of the page, create a new branch for this commit.
 
 8.	Create a pull request (PR).
+          
+    **Note**: Make sure that the selected base fork is **rackerlabs/rackspace-how-to** and that the head fork is your forked repository. For example, **stephamon/rackspace-how-to**.
 
 Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes.
 
@@ -78,6 +80,8 @@ Follow these steps to edit an existing article within a product folder of the **
     - If you make a complex edit, explain why you are making the edit. For example, if you are changing the formatting of an article because a list should be ordered instead of unordered, say, "Switch list in middle of article to ordered to show clear progression of steps".
 
 4. Create a PR for your branch.
+
+   **Note**: Make sure that the selected base fork is **rackerlabs/rackspace-how-to** and that the head fork is your forked repository. For example, **stephamon/rackspace-how-to**.
 
 Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes.
 
